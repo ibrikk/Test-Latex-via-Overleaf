@@ -276,36 +276,57 @@
 
 %%%%%%%%%%%%%% TABLE OF CONTENTS %%%%%%%%%%%
 
-\documentclass{article}
-\title{Sections and Chapters}
-\author{Ibrahim Khalilov}
-\date{January 2024}
-\begin{document}
+% \documentclass{article}
+% \title{Sections and Chapters}
+% \author{Ibrahim Khalilov}
+% \date{January 2024}
+% \begin{document}
   
-\maketitle % Make the above a title
+% \maketitle % Make the above a title
   
-\tableofcontents
+% \tableofcontents
 
-\section{Introduction}
+% \section{Introduction}
    
-This is the first section.
+% This is the first section.
       
-Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
-elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
-neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
-Donec ullamcorper, felis non sodales...
+% Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+% elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+% neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+% Donec ullamcorper, felis non sodales...
        
-\section*{Unnumbered Section}
-\addcontentsline{toc}{section}{Unnumbered Section}
+% \section*{Unnumbered Section}
+% \addcontentsline{toc}{section}{Unnumbered Section}
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
-Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
-sollicitudin.  Praesent imperdiet mi necante...
+% Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+% Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+% sollicitudin.  Praesent imperdiet mi necante...
 
-\section{Second Section}
+% \section{Second Section}
        
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
-Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
-sollicitudin.  Praesent imperdiet mi necante...
+% Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+% Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+% sollicitudin.  Praesent imperdiet mi necante...
+% \end{document}
+
+%%%%%%%%%%%%% MULTI COLUMNS %%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+\usepackage{blindtext}
+\usepackage{multicol}
+\title{Multicols Demo}
+\author{Overleaf}
+\date{April 2021}
+
+\begin{document}
+\maketitle
+
+\begin{multicols}{2}
+[
+\section{First Section}
+All human things are subject to decay. And when fate summons, Monarchs must obey.
+]
+\blindtext\blindtext
+\end{multicols}
+
 \end{document}
-
